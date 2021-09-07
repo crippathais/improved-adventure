@@ -1,0 +1,25 @@
+{
+    "FastqToGVCF.sample_name": "WGA_2-97",
+    "FastqToGVCF.fastq_1": "/home/thais/Doutorado/Samples/SamplesMacrogen/WGA_2-97/WGA_2-97_R1.fastq.gz",
+    "FastqToGVCF.fastq_2": "/home/thais/Doutorado/Samples/SamplesMacrogen/WGA_2-97/WGA_2-97_R2.fastq.gz",
+    "FastqToGVCF.reference": {
+        "ref_dict": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.dict",
+        "ref_fasta": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta",
+        "ref_fasta_index": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta.fai",
+        "ref_sa": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta.sa",
+        "ref_amb": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta.amb",
+        "ref_bwt": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta.bwt",
+        "ref_ann": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta.ann",
+        "ref_pac": "/home/thais/NewData/PvP01/PlasmoDB-54_PvivaxP01_Genome.fasta.pac"
+    },
+    "FastqToGVCF.humanReference": {
+        "ref_dict": "/home/thais/NewData/Human/Homo_sapiens_assembly38.dict",
+        "ref_fasta": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta",
+        "ref_fasta_index": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.fai",
+        "ref_sa": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.sa",
+        "ref_amb": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.amb",
+        "ref_bwt": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.bwt",
+        "ref_ann": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.ann",
+        "ref_pac": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.pac"
+    }
+}
