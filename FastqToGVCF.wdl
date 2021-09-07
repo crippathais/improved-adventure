@@ -28,6 +28,9 @@ workflow FastqToGVCF {
     String platform_name = "UnkownPlatform"
 
     Boolean is_pcr_free = false
+
+    File calling_interval_list
+    Int scatter_count = 12
   }
 
   # Converter o par de FASTQ para uBAM necessário para adicionar informação de
@@ -74,12 +77,14 @@ workflow FastqToGVCF {
       ref_fasta = reference.ref_fasta,
       ref_fasta_index = reference.ref_fasta_index,
       ref_dict = reference.ref_dict,
-      is_pcr_free = is_pcr_free
+      is_pcr_free = is_pcr_free,
+      calling_interval_list = calling_interval_list,
+      scatter_count = scatter_count
   }
 
   output {
     File duplicate_metrics = UnmappedBamToAlignedBam.duplicate_metrics
-    #File output_bqsr_reports = UnmappedBamToAlignedBam.output_bqsr_reports
+    # File output_bqsr_reports = UnmappedBamToAlignedBam.output_bqsr_reports
 
     File output_bam = UnmappedBamToAlignedBam.output_bam
     File output_bam_index = UnmappedBamToAlignedBam.output_bam_index

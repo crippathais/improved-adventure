@@ -21,5 +21,6 @@
         "ref_bwt": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.bwt",
         "ref_ann": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.ann",
         "ref_pac": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.64.pac"
-    }
+    },
+    "FastqToGVCF.calling_interval_list": "File"
 }
