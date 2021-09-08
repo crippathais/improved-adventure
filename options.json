@@ -1,5 +1,5 @@
 {
-    "final_workflow_outputs_dir": "/home/thais/NewData/thais/resultados",
+    "final_workflow_outputs_dir": "/home/thais/NewData/resultados",
     "use_relative_output_paths": true,
-    "final_workflow_log_dir": "/home/thais/NewData/thais/cromwell-workflow-logs"
+    "final_workflow_log_dir": "cromwell-workflow-logs"
 }

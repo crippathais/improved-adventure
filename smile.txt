@@ -1,0 +1,1 @@
+WGA_2-97	/home/thais/Doutorado/Samples/SamplesMacrogen/WGA_2-97/WGA_2-97_R1.fastq.gz	/home/thais/Doutorado/Samples/SamplesMacrogen/WGA_2-97/WGA_2-97_R2.fastq.gz

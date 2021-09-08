@@ -38,7 +38,7 @@ workflow UnmappedBamToAlignedBam {
   call Processing.SortSam as SortSampleBam {
     input:
       input_bam = MarkDuplicates.output_bam,
-      output_bam_basename = sample_name + ".aligned.duplicate_marked.sorted"
+      output_bam_basename = sample_name
   }
 
   # call Processing.BaseRecalibrator as BaseRecalibrator {
