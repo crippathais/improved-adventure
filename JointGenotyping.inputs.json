@@ -1,0 +1,9 @@
+{
+  "JointGenotyping.callset_name": "String",
+  "JointGenotyping.sample_name_map": "File",
+  "JointGenotyping.unpadded_intervals_file": "/home/thais/NewData/PvP01/genome.interval_list",
+  "JointGenotyping.ref_fasta_index": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta.fai",
+  "JointGenotyping.ref_dict": "/home/thais/NewData/Human/Homo_sapiens_assembly38.dict",
+  "JointGenotyping.ref_fasta": "/home/thais/NewData/Human/Homo_sapiens_assembly38.fasta"
+}
+
