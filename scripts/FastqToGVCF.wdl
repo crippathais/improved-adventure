@@ -21,8 +21,6 @@ workflow FastqToGVCF {
     Array[File]? known_indels_sites_vcfs
     Array[File]? known_indels_sites_indices
 
-    Reference humanReference
-
     # Vai aparecer apenas no BAM/CRAM final
     String library_name = "UnknownLibrary"
     String platform_name = "UnkownPlatform"
@@ -45,20 +43,6 @@ workflow FastqToGVCF {
       platform_name = platform_name,
       library_name = library_name
   }
-
-  # Discard reads that mapped in human genome
-  # call Alignment.SamToFastqAndBwaMemAndMba as MapToHumanGenome {
-  #   input:
-  #     output_bam_basename = sample_name + "human",
-  #     unmapped_bam = PairedFastQsToUnmappedBAM.output_unmapped_bam,
-  #     reference = humanReference
-  # }
-
-  # call Alignment.ExtractUnmappedReads {
-  #   input:
-  #     sample_name = sample_name,
-  #     aligned_bam = MapToHumanGenome.output_bam
-  # }
 
   # uBAM é usado como entrada do subworkflow de alinhamento e refinamento do BAM
   call ToBam.UnmappedBamToAlignedBam {

@@ -11,8 +11,6 @@ workflow FastqToGVCFMultiSample {
     Array[File]? known_indels_sites_vcfs
     Array[File]? known_indels_sites_indices
 
-    Reference humanReference
-
     # Vai aparecer apenas no BAM/CRAM final
     String library_name = "UnknownLibrary"
     String platform_name = "UnkownPlatform"
@@ -32,7 +30,6 @@ workflow FastqToGVCFMultiSample {
         reference = reference,
         known_indels_sites_vcfs = known_indels_sites_vcfs,
         known_indels_sites_indices = known_indels_sites_indices,
-        humanReference = humanReference,
         library_name = library_name,
         platform_name = platform_name,
         is_pcr_free = is_pcr_free,

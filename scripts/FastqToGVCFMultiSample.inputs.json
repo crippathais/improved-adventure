@@ -1,0 +1,15 @@
+{
+    "FastqToGVCFMultiSample.sample_table": "smile.txt",
+    "FastqToGVCFMultiSample.reference": {
+        "ref_dict": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.dict",
+        "ref_fasta": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta",
+        "ref_fasta_index": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.fai",
+        "ref_sa": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.sa",
+        "ref_amb": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.amb",
+        "ref_bwt": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.bwt",
+        "ref_ann": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.ann",
+        "ref_pac": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.pac"
+    },
+
+    "FastqToGVCFMultiSample.calling_interval_list": "/home/thais/NewData/Anopheles/ref/genome.interval_list"
+}
