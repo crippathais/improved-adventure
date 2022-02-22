@@ -1,7 +1,7 @@
 {
     "FastqToGVCFMultiSample.sample_table": "smile.txt",
     "FastqToGVCFMultiSample.reference": {
-        "ref_dict": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.dict",
+        "ref_dict": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.dict",
         "ref_fasta": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta",
         "ref_fasta_index": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.fai",
         "ref_sa": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.sa",
