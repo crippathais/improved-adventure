@@ -1,0 +1,9 @@
+{
+  "JointGenotyping.callset_name": "Padawan",
+  "JointGenotyping.sample_name_map": "samplemap.txt",
+  "JointGenotyping.unpadded_intervals_file": "/home/thais/NewData/Anopheles/ref/genome.interval_list",
+  "JointGenotyping.ref_fasta_index": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta.fai",
+  "JointGenotyping.ref_dict": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.dict",
+  "JointGenotyping.ref_fasta": "/home/thais/NewData/Anopheles/ref/GCF_000005575.2_AgamP3_genomic.fasta"
+}
+
