@@ -1,0 +1,10 @@
+SRR1777907	/home/thais/NewData/resultados/SRR1777907.g.vcf.gz
+SRR1777911	/home/thais/NewData/resultados/SRR1777911.g.vcf.gz
+SRR1777931	/home/thais/NewData/resultados/SRR1777931.g.vcf.gz
+SRR1777936	/home/thais/NewData/resultados/SRR1777936.g.vcf.gz
+SRR1777937	/home/thais/NewData/resultados/SRR1777937.g.vcf.gz
+SRR1777938	/home/thais/NewData/resultados/SRR1777938.g.vcf.gz
+SRR1777940	/home/thais/NewData/resultados/SRR1777940.g.vcf.gz
+SRR1777941	/home/thais/NewData/resultados/SRR1777941.g.vcf.gz
+SRR1777943	/home/thais/NewData/resultados/SRR1777943.g.vcf.gz
+SRR1777945	/home/thais/NewData/resultados/SRR1777945.g.vcf.gz
